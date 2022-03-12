@@ -1,7 +1,7 @@
 import time,requests,csv,pandas as pd
     ################################################################################
 class script:
-    def __init__(self,script_Name,api,data_section,assign_columns=["humidity","visibility","air_pressure","wind_speed","applicable_date"]):
+    def __init__(self,script_Name,api,data_section,assign_columns=[]):
         self.api = api
         self.script_Name = script_Name
         self.data_section = data_section
